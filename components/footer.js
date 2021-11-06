@@ -40,7 +40,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="max-w-md mt-4 text-gray-400 dark:text-gray-300">
-                <a href="mailto:cv.kasihcyber@gmail.com">
+                <a href="mailto:info@kasihcyber.co.id">
                   <Image src={email} width="35" height="35" alt="Whatsapp" />
                 </a>
               </div>

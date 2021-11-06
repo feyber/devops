@@ -41,7 +41,7 @@ export default function Kontak() {
           </h1>
         </div>
         <div>
-          <a href="mailto:cv.kasihcyber@gmail.com">
+          <a href="mailto:info@kasihcyber.co.id">
             <Image src={email} width="250" height="250" alt="" />
           </a>
           <h1 className="flex text-xs lg:text-xl items-center md:text-base  justify-center font-semibold text-gray-400">

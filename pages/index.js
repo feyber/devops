@@ -54,7 +54,7 @@ export default function Home() {
         don't forget to add one. Just like this.
       </SectionTitle> */}
       {/* <Video /> */}
-      <SectionTitle pretitle="Testimoni" title="Apa yang client kami katakan :">
+      <SectionTitle pretitle="Testimoni" title="Apa yang client kami katakan:">
         {/* Berikut ini adalah komentar testimoni dari orang-orang yang sudah
         memakai jasa dan produk{" "}
         <span className="font-semibold">Kasih Cyber </span> sebagai solusi
