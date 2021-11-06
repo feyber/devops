@@ -44,12 +44,12 @@ export default function Tentang() {
           VISI
         </div>
       </div>
-      <section className=" relative mt-8 p-20 md:grid-cols-3 md:grid-rows-2 items-center justify-center gap-4 rounded-xl bg-red-500 grid lg:grid-rows-2 lg:grid-cols-6 grid-rows-6 grid-cols-2 sm:flex-col">
+      <section className=" relative mt-8 p-20 md:grid-cols-3 md:grid-rows-2 items-center justify-center lg:gap-4 rounded-xl bg-red-500 grid lg:grid-rows-2 lg:grid-cols-6 grid-rows-6 grid-cols-2 sm:flex-col">
         {/* <!-- rotate --> */}
         <div className="absolute top-0 font-bold bg-indigo-600 ml-4 -mt-4 px-4 py-2 text-indigo-50 rounded-lg text-sm md:text-base">
           CLIENT KAMI
         </div>
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -60,7 +60,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -77,7 +77,7 @@ export default function Tentang() {
           </div>
         </div>
         {/* <!-- rotate --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -95,7 +95,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -112,7 +112,7 @@ export default function Tentang() {
           </div>
         </div>
         {/* <!-- rotate --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -128,7 +128,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -143,7 +143,7 @@ export default function Tentang() {
           </div>
         </div>
         {/* <!-- rotate --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -159,7 +159,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -174,7 +174,7 @@ export default function Tentang() {
           </div>
         </div>
         {/* <!-- rotate --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -190,7 +190,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -205,7 +205,7 @@ export default function Tentang() {
           </div>
         </div>
         {/* <!-- rotate --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -221,7 +221,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- rotate minus --> */}
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
             <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
@@ -236,7 +236,7 @@ export default function Tentang() {
           </div>
         </div>
       </section>
-      <div className="relative flex items-center justify-center p-10 mt-4">
+      <div className="relative w-full flex items-center justify-center p-10 mt-4">
         <Image
           src={maluku}
           width="1300"
@@ -248,7 +248,7 @@ export default function Tentang() {
       </div>
 
       {/* <!-- Origin -->
-        <div className="h-32 w-32 relative cursor-pointer mb-5">
+        <div className="h-28 w-28 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform origin-left hover:-rotate-45 transition duration-300">
             <div className="h-full w-full bg-white rounded-lg shadow-2xl"></div>
@@ -256,7 +256,7 @@ export default function Tentang() {
         </div>
 
         {/* <!-- translate --> */}
-      {/* <div className="h-32 w-32 relative cursor-pointer mb-5">
+      {/* <div className="h-28 w-32 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:-translate-x-10 transition duration-300">
             <div className="h-full w-full bg-white rounded-lg shadow-2xl"></div>
