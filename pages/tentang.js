@@ -44,7 +44,7 @@ export default function Tentang() {
           VISI
         </div>
       </div>
-      <section className="relative mt-8 p-10 mx-auto lg:p-20 flex justify-center items-center rounded-xl bg-red-500  ">
+      <section className=" hover:shadow-xl relative mt-8 p-10 mx-auto lg:p-20 flex justify-center items-center rounded-xl bg-red-500  ">
         {/* <!-- rotate --> */}
         <div className="absolute top-0 font-bold bg-indigo-600 ml-4 -mt-4 px-4 py-2 text-indigo-50 rounded-lg text-sm md:text-base">
           CLIENT KAMI
