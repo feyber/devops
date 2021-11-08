@@ -44,194 +44,201 @@ export default function Tentang() {
           VISI
         </div>
       </div>
-      <section className="relative mt-8 p-10 mx-auto lg:p-20 md:grid-cols-3 md:grid-rows-2 gap-2 justify-center items-center lg:gap-4 rounded-xl bg-red-500 grid lg:grid-rows-2 lg:grid-cols-6 grid-rows-6 grid-cols-2">
+      <section className="relative mt-8 p-10 mx-auto lg:p-20 md:grid-cols-3 md:grid-rows-2 gap-2 justify-center items-center lg:gap-4 rounded-xl bg-red-500 grid lg:grid-rows-2 lg:grid-cols-6 grid-rows-6 grid-cols-2 ">
         {/* <!-- rotate --> */}
         <div className="absolute top-0 font-bold bg-indigo-600 ml-4 -mt-4 px-4 py-2 text-indigo-50 rounded-lg text-sm md:text-base">
           CLIENT KAMI
         </div>
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image src={cctv} width="70" height="70" alt="CCTV RSUD Tobelo" />
-              <h1 className="text-xs mt-1 font-semibold">RSUD TOBELO</h1>
-            </div>
-          </div>
-        </div>
-
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <div className=" h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-                <Image
-                  src={cctv}
-                  width="70"
-                  height="70"
-                  alt="CCTV SMS Finance Tobelo"
-                />
-                <h1 className="text-xs mt-1 font-semibold">SMS FINANCE</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- rotate --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+        <div className="dark:text-gray-900">
+          <div className="h-28 w-28 relative cursor-pointer mb-5 ">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
               <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
                 <Image
                   src={cctv}
                   width="70"
                   height="70"
-                  alt="CCTV Pasar Modern Tobelo"
+                  alt="CCTV RSUD Tobelo"
                 />
-                <h1 className="text-xs mt-1 font-semibold">PASAR MODERN</h1>
+                <h1 className="text-xs mt-1 font-semibold">RSUD TOBELO</h1>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <div className=" h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                  <Image
+                    src={cctv}
+                    width="70"
+                    height="70"
+                    alt="CCTV SMS Finance Tobelo"
+                  />
+                  <h1 className="text-xs mt-1 font-semibold">SMS FINANCE</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- rotate --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                  <Image
+                    src={cctv}
+                    width="70"
+                    height="70"
+                    alt="CCTV Pasar Modern Tobelo"
+                  />
+                  <h1 className="text-xs mt-1 font-semibold">PASAR MODERN</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                  <Image
+                    src={wifi}
+                    width="70"
+                    height="70"
+                    alt="LAN Universitas Hein Namotemo Tobelo"
+                  />
+                  <h1 className="text-xs mt-1 font-semibold">UNHENA</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- rotate --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
               <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
                 <Image
                   src={wifi}
                   width="70"
                   height="70"
-                  alt="LAN Universitas Hein Namotemo Tobelo"
+                  alt="Wifi Hotspot Hotel Bianda Tobelo"
                 />
-                <h1 className="text-xs mt-1 font-semibold">UNHENA</h1>
+                <h1 className="text-xs mt-1 font-semibold">HOTEL BIANDA</h1>
               </div>
             </div>
           </div>
-        </div>
-        {/* <!-- rotate --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={wifi}
-                width="70"
-                height="70"
-                alt="Wifi Hotspot Hotel Bianda Tobelo"
-              />
-              <h1 className="text-xs mt-1 font-semibold">HOTEL BIANDA</h1>
-            </div>
-          </div>
-        </div>
 
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={wifi}
-                width="70"
-                height="70"
-                alt="Wifi Hotspot Hotel Bryken Tobelo"
-              />
-              <h1 className="text-xs mt-1 font-semibold">HOTEL BRYKEN</h1>
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={wifi}
+                  width="70"
+                  height="70"
+                  alt="Wifi Hotspot Hotel Bryken Tobelo"
+                />
+                <h1 className="text-xs mt-1 font-semibold">HOTEL BRYKEN</h1>
+              </div>
             </div>
           </div>
-        </div>
-        {/* <!-- rotate --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={wifi}
-                width="70"
-                height="70"
-                alt="Wifi Hotspot Badan Kepegawaian Halmahera Utara Tobelo"
-              />
-              <h1 className="text-xs mt-1 font-semibold">BAPPEDA HALUT</h1>
+          {/* <!-- rotate --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={wifi}
+                  width="70"
+                  height="70"
+                  alt="Wifi Hotspot Badan Kepegawaian Halmahera Utara Tobelo"
+                />
+                <h1 className="text-xs mt-1 font-semibold">BAPPEDA HALUT</h1>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={wifi}
-                width="70"
-                height="70"
-                alt="Wifi Hotspot Dinas Kependudukan dan Catatan Sipil Halmahera Utara Tobelo"
-              />
-              <h1 className="text-xs mt-1 font-semibold">DUKCAPIL HALUT</h1>
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={wifi}
+                  width="70"
+                  height="70"
+                  alt="Wifi Hotspot Dinas Kependudukan dan Catatan Sipil Halmahera Utara Tobelo"
+                />
+                <h1 className="text-xs mt-1 font-semibold">DUKCAPIL HALUT</h1>
+              </div>
             </div>
           </div>
-        </div>
-        {/* <!-- rotate --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={wifi}
-                width="70"
-                height="70"
-                alt="Wifi Hotspot Zhafira House Tobelo"
-              />
-              <h1 className="text-xs mt-1 font-semibold">ZHAFIRA HOUSE</h1>
+          {/* <!-- rotate --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={wifi}
+                  width="70"
+                  height="70"
+                  alt="Wifi Hotspot Zhafira House Tobelo"
+                />
+                <h1 className="text-xs mt-1 font-semibold">ZHAFIRA HOUSE</h1>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={website}
-                width="70"
-                height="70"
-                alt="Website Wordpress OSA Gift Store Jakarta"
-              />
-              <h1 className="text-xs mt-1 font-semibold">OSA GIFT</h1>
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={website}
+                  width="70"
+                  height="70"
+                  alt="Website Wordpress OSA Gift Store Jakarta"
+                />
+                <h1 className="text-xs mt-1 font-semibold">OSA GIFT</h1>
+              </div>
             </div>
           </div>
-        </div>
-        {/* <!-- rotate --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={website}
-                width="70"
-                height="70"
-                alt="Website Landing Page BYD Forklift Jakarta"
-              />
-              <h1 className="text-xs mt-1 font-semibold">BYD FORKLIFT</h1>
+          {/* <!-- rotate --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={website}
+                  width="70"
+                  height="70"
+                  alt="Website Landing Page BYD Forklift Jakarta"
+                />
+                <h1 className="text-xs mt-1 font-semibold">BYD FORKLIFT</h1>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* <!-- rotate minus --> */}
-        <div className="h-28 w-28 relative cursor-pointer mb-5">
-          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
-          <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
-            <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
-              <Image
-                src={website}
-                width="70"
-                height="70"
-                alt="Website Landing Page NOBU88 Games Jakarta"
-              />
-              <h1 className="text-xs mt-1 font-semibold">NOBUGAMES</h1>
+          {/* <!-- rotate minus --> */}
+          <div className="h-28 w-28 relative cursor-pointer mb-5">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+            <div className="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+              <div className="h-full w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={website}
+                  width="70"
+                  height="70"
+                  alt="Website Landing Page NOBU88 Games Jakarta"
+                />
+                <h1 className="text-xs mt-1 font-semibold">NOBUGAMES</h1>
+              </div>
             </div>
           </div>
         </div>
