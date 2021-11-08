@@ -46,7 +46,7 @@ export default function Tentang() {
       </div>
       <section className=" hover:shadow-xl relative mt-10 p-10 mx-auto lg:p-20 flex justify-center items-center rounded-xl bg-red-500  ">
         {/* <!-- rotate --> */}
-        <div className="absolute top-0 font-bold bg-indigo-600 ml-4 -mt-4 px-4 py-2 text-indigo-50 rounded-lg text-sm md:text-base">
+        <div className="absolute shadow-lg top-0 font-bold bg-indigo-600 ml-4 -mt-4 px-4 py-2 text-indigo-50 rounded-lg text-sm md:text-base">
           CLIENT KAMI
         </div>
         <div className="dark:text-gray-900 md:grid-cols-3 md:grid-rows-2 gap-2 lg:gap-4 grid lg:grid-rows-2 lg:grid-cols-6 grid-rows-6 grid-cols-2">
