@@ -34,6 +34,11 @@ export default function Home() {
           content="Kasih Cyber adalah Perusahaan Solusi IT Terbaik di Indonesia Timur"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          data-ad-client="ca-pub-3895410812001823"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
       </Head>
 
       <Navbar />
