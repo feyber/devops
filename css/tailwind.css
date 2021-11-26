@@ -8,3 +8,6 @@
     @apply dark:bg-trueGray-900;
   }
 }
+
+@layer utilities {
+}

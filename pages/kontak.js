@@ -5,6 +5,7 @@ import telp from "../public/img/Viber-1.png";
 import wa from "../public/img/Whatsapp-1.png";
 import email from "../public/img/Outlook-1.png";
 import Image from "next/image";
+import Tilt from "react-parallax-tilt";
 
 export default function Kontak() {
   return (
@@ -23,32 +24,34 @@ export default function Kontak() {
           Hubungi Kami
         </h1>
       </div>
-      <div className="h-full w-full flex flex-row space-x-4 items-center justify-center">
-        <div>
-          <a href="tel:+62-811-4342-218">
-            <Image src={telp} width="250" height="250" alt="" />
-          </a>
-          <h1 className="flex items-center  text-xs md:text-base lg:text-xl justify-center font-semibold text-purple-400">
-            Telepon
-          </h1>
+      <Tilt>
+        <div className="h-full w-full flex flex-row space-x-4 items-center justify-center">
+          <div>
+            <a href="tel:+62-811-4342-218">
+              <Image src={telp} width="250" height="250" alt="" />
+            </a>
+            <h1 className="flex items-center  text-xs md:text-base lg:text-xl justify-center font-semibold text-purple-400">
+              Telepon
+            </h1>
+          </div>
+          <div>
+            <a href="https://wa.me/628114342218">
+              <Image src={wa} width="250" height="250" alt="" />
+            </a>
+            <h1 className="flex items-center text-xs  md:text-base lg:text-xl justify-center font-semibold text-green-500">
+              Whatsapp
+            </h1>
+          </div>
+          <div>
+            <a href="mailto:info@kasihcyber.co.id">
+              <Image src={email} width="250" height="250" alt="" />
+            </a>
+            <h1 className="flex text-xs lg:text-xl items-center md:text-base  justify-center font-semibold text-gray-400">
+              Email
+            </h1>
+          </div>
         </div>
-        <div>
-          <a href="https://wa.me/628114342218">
-            <Image src={wa} width="250" height="250" alt="" />
-          </a>
-          <h1 className="flex items-center text-xs  md:text-base lg:text-xl justify-center font-semibold text-green-500">
-            Whatsapp
-          </h1>
-        </div>
-        <div>
-          <a href="mailto:info@kasihcyber.co.id">
-            <Image src={email} width="250" height="250" alt="" />
-          </a>
-          <h1 className="flex text-xs lg:text-xl items-center md:text-base  justify-center font-semibold text-gray-400">
-            Email
-          </h1>
-        </div>
-      </div>
+      </Tilt>
 
       <Footer />
     </div>

@@ -1,58 +1,61 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-
+import Tilt from "react-parallax-tilt";
 import userOneImg from "../public/img/iska.png";
 import userTwoImg from "../public/img/forklift.png";
 import userThreeImg from "../public/img/pasar.jpg";
 
 export default function Testimonials() {
   return (
-    <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10">
-        <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal">
-              <Mark>Sangat baik</Mark>
-              dan memuaskan. Website ecommerce saya bekerja dengan lancar.
-            </p>
+    <Tilt tiltReverse={true} tiltAxis={"x"}>
+      <Container>
+        <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10">
+          <div className="lg:col-span-2 xl:col-auto">
+            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              <p className="text-2xl leading-normal">
+                <Mark>Sangat baik</Mark>
+                dan memuaskan. Website ecommerce saya bekerja dengan lancar.
+              </p>
 
-            <Avatar
-              image={userOneImg}
-              name="Iska Vonalia"
-              title="co-founder OSA Gift"
-            />
+              <Avatar
+                image={userOneImg}
+                name="Iska Vonalia"
+                title="co-founder OSA Gift"
+              />
+            </div>
+          </div>
+          <div className="">
+            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              <p className="text-2xl leading-normal ">
+                Sejak membuat website <Mark>Landing Page</Mark>
+                dari 2018, penjualan secara online meningkat.
+              </p>
+
+              <Avatar
+                image={userTwoImg}
+                name="Toni Prasetyo"
+                title="Sales Forklift Mitsubishi"
+              />
+            </div>
+          </div>
+          <div className="">
+            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+              <p className="text-2xl leading-normal ">
+                Pengerjaan <Mark>CCTV</Mark> rapi dan kualitas video sangat
+                baik.
+              </p>
+
+              <Avatar
+                image={userThreeImg}
+                name="Staff Purchasing"
+                title="Pasar Modern Tobelo"
+              />
+            </div>
           </div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Sejak membuat website <Mark>Landing Page</Mark>
-              dari 2018, penjualan secara online meningkat.
-            </p>
-
-            <Avatar
-              image={userTwoImg}
-              name="Toni Prasetyo"
-              title="Sales Forklift Mitsubishi"
-            />
-          </div>
-        </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
-              Pengerjaan <Mark>CCTV</Mark> rapi dan kualitas video sangat baik.
-            </p>
-
-            <Avatar
-              image={userThreeImg}
-              name="Staff Purchasing"
-              title="Pasar Modern Tobelo"
-            />
-          </div>
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </Tilt>
   );
 }
 

@@ -1533,6 +1533,11 @@
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
 
+"animateplus@^2.1.1":
+  "integrity" "sha1-lmnc1E6F6Y0tIC2WKnfEr8UWd3o="
+  "resolved" "https://registry.npmjs.org/animateplus/-/animateplus-2.1.1.tgz"
+  "version" "2.1.1"
+
 "anser@1.4.9":
   "integrity" "sha512-AI+BjTeGt2+WFk4eWcqbQ7snZpDBt8SaLlj0RT2h5xfdWaiy51OjYvqwMrNzJLGy8iOAL6nKDITWO+rd4MkYEA=="
   "resolved" "https://registry.npmjs.org/anser/-/anser-1.4.9.tgz"
