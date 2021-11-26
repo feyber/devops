@@ -6,6 +6,7 @@ import support from "../public/img/support.svg";
 import infrastructure from "../public/img/infra.svg";
 import Tilt from "react-parallax-tilt";
 import Link from "next/link";
+import TextyAnim from "rc-texty";
 
 export default function Hero() {
   return (
@@ -13,9 +14,12 @@ export default function Hero() {
       <Container className="flex flex-wrap w-11/12 mt-10 lg:mt-0">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
+            {/* <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
               LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
-            </h1>
+            </h1> */}
+            <TextyAnim className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
+              LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
+            </TextyAnim>
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
               <span className="font-bold">Kasih Cyber</span> adalah mitra
               terbaik yang menyediakan berbagai solusi untuk bisnis anda dengan
@@ -77,7 +81,7 @@ export default function Hero() {
           </div> */}
 
           <Tilt tiltReverse={true} tiltAxis={"y"}>
-            <div className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24 p-2 ">
+            <div className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24">
               <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
                 <Image
                   src={pengadaan}
