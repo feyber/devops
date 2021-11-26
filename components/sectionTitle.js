@@ -4,7 +4,7 @@ import Container from "./container";
 export default function SectionTitle(props) {
   return (
     <Container
-      className={`flex w-full flex-col mt-4 ${
+      className={`flex w-full flex-col mt-4 js-show-on-scroll  ${
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}
     >

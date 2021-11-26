@@ -1533,11 +1533,6 @@
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
 
-"animateplus@^2.1.1":
-  "integrity" "sha1-lmnc1E6F6Y0tIC2WKnfEr8UWd3o="
-  "resolved" "https://registry.npmjs.org/animateplus/-/animateplus-2.1.1.tgz"
-  "version" "2.1.1"
-
 "anser@1.4.9":
   "integrity" "sha512-AI+BjTeGt2+WFk4eWcqbQ7snZpDBt8SaLlj0RT2h5xfdWaiy51OjYvqwMrNzJLGy8iOAL6nKDITWO+rd4MkYEA=="
   "resolved" "https://registry.npmjs.org/anser/-/anser-1.4.9.tgz"
@@ -3136,6 +3131,11 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
+"gsap@^3.8.0":
+  "integrity" "sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.8.0.tgz"
+  "version" "3.8.0"
+
 "has-bigints@^1.0.1":
   "integrity" "sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA=="
   "resolved" "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.1.tgz"
@@ -3877,6 +3877,11 @@
   "integrity" "sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA=="
   "resolved" "https://registry.npmjs.org/modern-normalize/-/modern-normalize-1.1.0.tgz"
   "version" "1.1.0"
+
+"moveto@^1.8.2":
+  "integrity" "sha512-+8WPr6XOL6AyGJrs/MGyV9ZExt+ifBdWK4TTZq+GSqD9bepYTUuhgUHZVoz8WRqXGaemh0LgpdWdl9OZX5BdHQ=="
+  "resolved" "https://registry.npmjs.org/moveto/-/moveto-1.8.2.tgz"
+  "version" "1.8.2"
 
 "ms@^2.1.1", "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="

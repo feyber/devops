@@ -5,12 +5,39 @@ import Tilt from "react-parallax-tilt";
 import userOneImg from "../public/img/iska.png";
 import userTwoImg from "../public/img/forklift.png";
 import userThreeImg from "../public/img/pasar.jpg";
+import { useEffect, useRef } from "react";
 
 export default function Testimonials() {
+  let observer = useRef();
+
+  useEffect(() => {
+    observer = new IntersectionObserver(callback);
+
+    const targets = document.querySelectorAll(".js-show-on-scroll");
+    targets.forEach(function (target) {
+      target.classList.add("opacity-0");
+      observer.observe(target);
+    });
+  }, []);
+
+  const callback = function (entries) {
+    entries.forEach((entry) => {
+      console.log(entry);
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-fadeIn");
+      } else {
+        entry.target.classList.remove("animate-fadeIn");
+      }
+    });
+  };
   return (
     <Tilt tiltReverse={true} tiltAxis={"x"}>
       <Container>
-        <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10">
+        <div
+          id="testimoni"
+          className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10 js-show-on-scroll"
+        >
           <div className="lg:col-span-2 xl:col-auto">
             <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal">

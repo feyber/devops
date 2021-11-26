@@ -4,8 +4,11 @@ import Link from "next/link";
 
 export default function Cta() {
   return (
-    <Container>
-      <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl hover:shadow-2xl scale-100 hover:scale-105 duration-700 mx-auto">
+    <Container className="js-show-on-scroll">
+      <div
+        id="kontak"
+        className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl hover:shadow-2xl scale-100 hover:scale-105 duration-700 mx-auto "
+      >
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ingin konsultasi ?

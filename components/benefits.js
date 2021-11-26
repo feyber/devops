@@ -7,7 +7,7 @@ export default function Benefits(props) {
 
   return (
     <>
-      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap js-show-on-scroll ">
         <div
           className={`flex items-center justify-center w-full lg:w-1/2 ${
             props.imgPos === "right" ? "lg:order-1" : ""
@@ -44,7 +44,7 @@ export default function Benefits(props) {
             <div className="w-full mt-5 mb-2">
               {data.bullets.map((item, index) => (
                 <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
+                  <p id="benefit">{item.desc}</p>
                 </Benefit>
               ))}
             </div>

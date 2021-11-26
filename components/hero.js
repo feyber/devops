@@ -81,7 +81,10 @@ export default function Hero() {
           </div> */}
 
           <Tilt tiltReverse={true} tiltAxis={"y"}>
-            <div className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24">
+            <div
+              id="service"
+              className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24 js-show-on-scroll"
+            >
               <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
                 <Image
                   src={pengadaan}

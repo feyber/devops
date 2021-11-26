@@ -9,6 +9,7 @@ import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
+import { useEffect, useRef } from "react";
 //import Faq from "../components/faq";
 // import PopupWidget from "../components/popupWidget";
 
@@ -23,8 +24,32 @@ import Cta from "../components/cta";
 // const Faq = dynamic(() => import("../components/faq"));
 
 // const PopupWidget = dynamic(() => import("../components/popupWidget"));
+// Get all the elements you want to show on scroll
 
 export default function Home() {
+  let observer = useRef();
+
+  useEffect(() => {
+    observer = new IntersectionObserver(callback);
+
+    const targets = document.querySelectorAll(".js-show-on-scroll");
+    targets.forEach(function (target) {
+      target.classList.add("opacity-0");
+      observer.observe(target);
+    });
+  }, []);
+
+  const callback = function (entries) {
+    entries.forEach((entry) => {
+      console.log(entry);
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-fadeIn");
+      } else {
+        entry.target.classList.remove("animate-fadeIn");
+      }
+    });
+  };
   return (
     <div div className="w-11/12 mx-auto">
       <Head>
