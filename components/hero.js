@@ -18,12 +18,12 @@ export default function Hero() {
               LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
             </h1> */}
             <TextyAnim className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
-              LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
+              LEBIH DARI SEKEDAR APLIKASI PEMBAYARAN ONLINE.
             </TextyAnim>
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
-              <span className="font-bold">Kasih Cyber</span> adalah mitra
+              <span className="font-bold">Untung Terus</span> adalah mitra
               terbaik yang menyediakan berbagai solusi untuk bisnis anda dengan
-              pengalaman lebih dari 8 tahun.
+              pengalaman lebih dari 18 tahun.
             </p>
 
             <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
@@ -94,9 +94,9 @@ export default function Hero() {
                   className="items-center justify-center"
                 />
                 <h1 className=" text-center text-md font-bold">
-                  JASA PENGADAAN BARANG{" "}
+                  +/- 100.000{" "}
                   <span className="text-indigo-600 dark:text-indigo-500">
-                    PERLENGKAPAN KOMPUTER
+                    ORANG BERTRANSAKSI DI APPS UNTUNG TERUS
                   </span>
                 </h1>
               </div>
@@ -110,24 +110,24 @@ export default function Hero() {
                   className="items-center justify-center"
                 />
                 <h1 className=" text-center text-md font-bold ">
-                  INSTALASI{" "}
+                  LAPORAN{" "}
                   <span className="text-indigo-600 dark:text-indigo-500">
-                    INFRASTRUKTUR JARINGAN DAN IT SUPPORT
+                    KEUANGAN GRATIS DIMILIKI OLEH ANDA
                   </span>
                 </h1>
               </div>
               <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
                 <Image
                   src={support}
-                  width="150"
+                  width="180"
                   height="150"
                   alt=""
                   className="items-center justify-center"
                 />
                 <h1 className=" text-center text-md font-bold">
-                  PEMBUATAN{" "}
-                  <span className="text-indigo-600 dark:text-indigo-500">
-                    WEBSITE DAN APLIKASI MOBILE
+                  24 JAM LAYANAN{" "}
+                  <span className="text-indigo-600 dark:text-indigo-500 mt-2">
+                    PROFESIONAL SUPPORT YANG HANDAL
                   </span>
                 </h1>
               </div>

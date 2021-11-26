@@ -55,7 +55,7 @@ export default function Navbar() {
                 </Disclosure.Button>
 
                 <Disclosure.Panel className="flex flex-wrap ju w-full my-5 lg:hidden">
-                  <>
+                  <div>
                     {/* {navigation.map((Service, index) => (
                       <Link key={index} href="/service">
                         <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
@@ -78,17 +78,35 @@ export default function Navbar() {
                         Proyek
                       </a>
                     </Link> */}
-                    <Link href="/tentang" passHref>
-                      <a className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                        Tentang
-                      </a>
-                    </Link>
-                    <Link href="/kontak" passHref>
-                      <a className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                        Kontak
-                      </a>
-                    </Link>
-                  </>
+
+                    <a
+                      href="#service"
+                      className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                    >
+                      Satu
+                    </a>
+
+                    <a
+                      href="#benefit"
+                      className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                    >
+                      Dua
+                    </a>
+
+                    <a
+                      href="#testimoni"
+                      className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                    >
+                      Tiga
+                    </a>
+
+                    <a
+                      href="#kontak"
+                      className="flex w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                    >
+                      Empat
+                    </a>
+                  </div>
                 </Disclosure.Panel>
               </div>
             </>
