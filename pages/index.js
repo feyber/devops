@@ -53,10 +53,10 @@ export default function Home() {
   return (
     <div div className="w-11/12 mx-auto">
       <Head>
-        <title>Kasih Cyber - IT Solution</title>
+        <title>Untung Terus - SuperApps</title>
         <meta
           name="description"
-          content="Kasih Cyber adalah Perusahaan Solusi IT Terbaik di Indonesia Timur"
+          content="Untung Terus adalah Perusahaan Solusi Pembayaran Terbaik di Indonesia"
         />
         <link rel="icon" href="/favicon.ico" />
         <script
