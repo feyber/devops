@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ThemeChanger from "./DarkSwitch";
+
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
@@ -13,15 +14,16 @@ export default function Navbar() {
         <Disclosure>
           {({ open }) => (
             <>
-              <div className="flex flex-wrap justify-between w-full scale-90 md:scale-100">
+              <div className="flex flex-wrap justify-between w-full p-4 mt-5">
                 <Link href="/">
                   <a>
                     <span>
                       <Image
-                        src="/img/logokc.png"
-                        alt="logo kasih cyber"
-                        width="120"
-                        height="90"
+                        src="/img/logo.png"
+                        alt="logo gucdev"
+                        width="150"
+                        height="60"
+                        className="scale-90 hover:scale-100 duration-700"
                       />
                     </span>
                   </a>

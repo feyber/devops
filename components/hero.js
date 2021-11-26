@@ -4,6 +4,7 @@ import heroImg from "../public/img/hero.svg";
 import pengadaan from "../public/img/pengadaan.svg";
 import support from "../public/img/support.svg";
 import infrastructure from "../public/img/infra.svg";
+import Tilt from "react-parallax-tilt";
 import Link from "next/link";
 
 export default function Hero() {
@@ -25,7 +26,7 @@ export default function Hero() {
               <Link href="/kontak" passHref>
                 <a
                   rel="noopener"
-                  className="px-4 py-2 text-base font-medium text-center text-white bg-indigo-600 rounded-md  md:px-8 md:py-4 lg:text-lg "
+                  className="px-4 py-2 text-base font-medium text-center text-white bg-indigo-600 rounded-md  md:px-8 md:py-4 lg:text-lg hover:translate-y-2 duration-500"
                 >
                   Kontak Kami
                 </a>
@@ -74,54 +75,57 @@ export default function Hero() {
              <span className="text-indigo-600">2000+</span> customers
             worldwide 
           </div> */}
-          <div className="flex flex-col sm:flex-row sm:w-full items-center justify-center space-x-4 -mt-24 p-2 ">
-            <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-3/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 duration-700">
-              <Image
-                src={pengadaan}
-                width="150"
-                height="150"
-                alt=""
-                className="items-center justify-center"
-              />
-              <h1 className=" text-center text-md font-bold">
-                JASA PENGADAAN BARANG{" "}
-                <span className="text-indigo-600 dark:text-indigo-500">
-                  PERLENGKAPAN KOMPUTER
-                </span>
-              </h1>
-            </div>
-            <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-3/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 duration-700 ">
-              <Image
-                src={infrastructure}
-                width="200"
-                height="200"
-                alt=""
-                className="items-center justify-center"
-              />
-              <h1 className=" text-center text-md font-bold ">
-                INSTALASI{" "}
-                <span className="text-indigo-600 dark:text-indigo-500">
-                  INFRASTRUKTUR JARINGAN DAN IT SUPPORT
-                </span>
-              </h1>
-            </div>
-            <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-3/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 duration-700">
-              <Image
-                src={support}
-                width="150"
-                height="150"
-                alt=""
-                className="items-center justify-center"
-              />
-              <h1 className=" text-center text-md font-bold">
-                PEMBUATAN{" "}
-                <span className="text-indigo-600 dark:text-indigo-500">
-                  WEBSITE DAN APLIKASI MOBILE
-                </span>
-              </h1>
-            </div>
-          </div>
 
+          <Tilt tiltReverse={true} tiltAxis={"y"}>
+            <div className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24 p-2 ">
+              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
+                <Image
+                  src={pengadaan}
+                  width="150"
+                  height="150"
+                  alt=""
+                  className="items-center justify-center"
+                />
+                <h1 className=" text-center text-md font-bold">
+                  JASA PENGADAAN BARANG{" "}
+                  <span className="text-indigo-600 dark:text-indigo-500">
+                    PERLENGKAPAN KOMPUTER
+                  </span>
+                </h1>
+              </div>
+
+              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 duration-700 ">
+                <Image
+                  src={infrastructure}
+                  width="200"
+                  height="200"
+                  alt=""
+                  className="items-center justify-center"
+                />
+                <h1 className=" text-center text-md font-bold ">
+                  INSTALASI{" "}
+                  <span className="text-indigo-600 dark:text-indigo-500">
+                    INFRASTRUKTUR JARINGAN DAN IT SUPPORT
+                  </span>
+                </h1>
+              </div>
+              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-8 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 duration-700">
+                <Image
+                  src={support}
+                  width="150"
+                  height="150"
+                  alt=""
+                  className="items-center justify-center"
+                />
+                <h1 className=" text-center text-md font-bold">
+                  PEMBUATAN{" "}
+                  <span className="text-indigo-600 dark:text-indigo-500">
+                    WEBSITE DAN APLIKASI MOBILE
+                  </span>
+                </h1>
+              </div>
+            </div>
+          </Tilt>
           {/* <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <AmazonLogo />
