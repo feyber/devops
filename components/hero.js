@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.svg";
+import heroImg from "../public/img/hero.png";
 import pengadaan from "../public/img/pengadaan.svg";
 import support from "../public/img/support.svg";
 import infrastructure from "../public/img/infra.svg";
@@ -11,8 +11,8 @@ import TextyAnim from "rc-texty";
 export default function Hero() {
   return (
     <>
-      <Container className="flex flex-wrap w-11/12 mt-10 lg:mt-0">
-        <div className="flex items-center w-full lg:w-1/2">
+      <Container className="flex flex-wrap w-11/12 mt-10 lg:mt-0 mb-4">
+        <div className="flex items-center w-full lg:w-1/2 ">
           <div className="max-w-2xl mb-8">
             {/* <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
               LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
@@ -27,7 +27,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
-              <Link href="/kontak" passHref>
+              <Link href="/" passHref>
                 <a
                   rel="noopener"
                   className="px-4 py-2 text-base font-medium text-center text-white bg-indigo-600 rounded-md  md:px-8 md:py-4 lg:text-lg hover:translate-y-2 duration-500"
@@ -58,7 +58,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex items-top justify-center w-full lg:w-1/2 scale-110 hover:scale-125 duration-700 z-0">
+        <div className="flex items-top justify-center w-full lg:w-1/2 scale-105 hover:scale-110 duration-700 z-0 -mt-5">
           <div className="hidden lg:block">
             <Image
               src={heroImg}

@@ -13,11 +13,11 @@ export default function Benefits(props) {
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}
         >
-          <div className="scale-125">
+          <div className="hover:rotate-3 duration-500">
             <Image
               src={data.image}
-              width="521"
-              height="482"
+              width="600"
+              height="500"
               alt="Benefits"
               layout="intrinsic"
               // placeholder="blur"
@@ -31,7 +31,7 @@ export default function Benefits(props) {
           }`}
         >
           <div>
-            <div className="flex flex-col w-full mt-4">
+            <div id="benefit" className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
                 {data.title}
               </h3>
@@ -41,10 +41,10 @@ export default function Benefits(props) {
               </p>
             </div>
 
-            <div className="w-full mt-5 mb-2">
+            <div className="w-full mt-5 mb-2 scale-100 hover:scale-105 duration-500 animate-pulse">
               {data.bullets.map((item, index) => (
                 <Benefit key={index} title={item.title} icon={item.icon}>
-                  <p id="benefit">{item.desc}</p>
+                  📍 {item.desc}
                 </Benefit>
               ))}
             </div>

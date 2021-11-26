@@ -5,52 +5,53 @@ import {
   DeviceMobileIcon,
   ArrowCircleDownIcon,
   CalculatorIcon,
+  MoonIcon,
 } from "@heroicons/react/outline";
 
-import benefitOneImg from "../public/img/infrastruktur.svg";
-import benefitTwoImg from "../public/img/webdev.svg";
+import benefitOneImg from "../public/img/benefit-onea.png";
+import benefitTwoImg from "../public/img/webdev.png";
 
 const benefitOne = {
-  title: "Solusi Infrastruktur Jaringan",
-  desc: "Tim kami terdiri dari orang yang handal dalam berbagai macam bidang IT dan juga berdedikasi tinggi untuk memberikan solusi terbaik untuk kegiatan bisnis anda.",
+  title: "Solusi Belanja dari HP",
+  desc: "Kini transaksi belanja ada ditangan anda. ",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Jaringan Komputer",
-      desc: "Perencanaan, pemasangan dan pemeliharaan jaringan Komputer (LAN, WLAN & WAN).",
-      icon: <WifiIcon />,
+      title: "Harga Termurah",
+      desc: "Jaminan uang kembali apabila harga kami lebih mahal.",
+      icon: <MoonIcon />,
     },
     {
-      title: "Internet Satelit",
-      desc: "Solusi internet sampai ke pelosok Nusantara.",
+      title: "Jaringan Toko Luas",
+      desc: "Solusi belanja sampai ke pelosok Nusantara.",
       icon: <ShareIcon />,
     },
     {
-      title: "CCTV",
-      desc: "Perencanaan, pemasangan dan pemeliharaan jaringan CCTV (Analog, IP Camera).",
+      title: "Verifikasi Mudah",
+      desc: "Dengan teknologi terkini. tinggal foto memakai smartphone.",
       icon: <VideoCameraIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Pembuatan Website dan Aplikasi Mobile",
-  desc: "Dalam mengerjakan proyek secara kreatif & profesional, kami mengadopsi konsep simple-minimalist yang mengikuti tren design secara global.",
+  title: "Mendukung Website dan Aplikasi Mobile",
+  desc: "Design kami mengadopsi konsep simple-minimalist yang mengikuti tren design secara global.",
   image: benefitTwoImg,
   bullets: [
     {
       title: "Website dengan Mobile Responsive",
-      desc: "Kami menggunakan Wordpress, ReactJS, NextJS, Tailwind, Bootstrap dalam mengerjakan proyek client.",
+      desc: "Dengan smartphone anda bisa menjangkau pembeli yang luas.",
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "PWA",
-      desc: "Progresive Web APP adalah teknologi google yang memungkinkan pengguna website menginstall website ke smartphone mereka.",
+      title: "Download",
+      desc: "Download app kami sekarang dan dapatkan Untuk berlipat kali ganda.",
       icon: <ArrowCircleDownIcon />,
     },
     {
-      title: "React Native",
-      desc: "Pengerjaan aplikasi mobile untuk android dan ios.",
+      title: "Kalkulator Belanja",
+      desc: "Hanya tersedia saat pembelian online",
       icon: <CalculatorIcon />,
     },
   ],

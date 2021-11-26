@@ -19,28 +19,29 @@ export default function Footer() {
             <div>
               <Link href="/">
                 <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                  <span>Kasih Cyber</span>
+                  <span>Untung Terus</span>
                 </a>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              <p> Jl. Z. Duan, Gamsungi, Tobelo, Halmahera Utara </p>
-              <p>Maluku Utara 97762</p>
+              <p> Jakarta </p>
+              <p>Indonesia</p>
             </div>
             <div className="flex flex-row">
               <div className="max-w-md mt-4 text-gray-400 dark:text-gray-300">
-                <a href="tel:+62-811-4342-218">
+                {/* <a href="tel:+62-811-4342-218"> */}
+                <a href="tel:+62-811-xxx-xxx">
                   <Image src={telp} width="35" height="35" alt="Whatsapp" />
                 </a>
               </div>
               <div className="max-w-md mt-4 text-gray-400 dark:text-gray-300">
-                <a href="https://wa.me/628114342218">
+                <a href="https://wa.me/">
                   <Image src={wa} width="35" height="35" alt="Whatsapp" />
                 </a>
               </div>
               <div className="max-w-md mt-4 text-gray-400 dark:text-gray-300">
-                <a href="mailto:info@kasihcyber.co.id">
+                <a href="mailto:admin@example.co.id">
                   <Image src={email} width="35" height="35" alt="Whatsapp" />
                 </a>
               </div>
@@ -50,7 +51,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/tentang">
+                <Link key={index} href="/">
                   <a className="w-full px-4 py-2 text-xl text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
@@ -61,7 +62,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/kontak">
+                <Link key={index} href="/">
                   <a className="w-full px-4 py-2 text-xl text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
@@ -105,7 +106,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()} Kasih Cyber
+          Copyright © {new Date().getFullYear()} UntungTerus
         </div>
       </Container>
       {/* Do not remove this */}

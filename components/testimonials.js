@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 import Tilt from "react-parallax-tilt";
-import userOneImg from "../public/img/iska.png";
-import userTwoImg from "../public/img/forklift.png";
-import userThreeImg from "../public/img/pasar.jpg";
+import userOneImg from "../public/img/user1.jpg";
+import userTwoImg from "../public/img/user2.jpg";
+import userThreeImg from "../public/img/user3.jpg";
 import { useEffect, useRef } from "react";
 
 export default function Testimonials() {
@@ -32,7 +32,7 @@ export default function Testimonials() {
     });
   };
   return (
-    <Tilt tiltReverse={true} tiltAxis={"x"}>
+    <Tilt tiltReverse={true}>
       <Container>
         <div
           id="testimoni"
@@ -41,42 +41,42 @@ export default function Testimonials() {
           <div className="lg:col-span-2 xl:col-auto">
             <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal">
-                <Mark>Sangat baik</Mark>
-                dan memuaskan. Website ecommerce saya bekerja dengan lancar.
+                Layanan pelanggan <Mark>sangat baik</Mark>
+                dan memuaskan. Tampilan App keren!
               </p>
 
               <Avatar
                 image={userOneImg}
-                name="Iska Vonalia"
-                title="co-founder OSA Gift"
+                name="Woman1"
+                title="co-founder MoonCraft"
               />
             </div>
           </div>
           <div className="">
             <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal ">
-                Sejak membuat website <Mark>Landing Page</Mark>
-                dari 2018, penjualan secara online meningkat.
+                Sejak memakai app <Mark>UntungTerus</Mark>
+                penjualan secara online meningkat.
               </p>
 
               <Avatar
                 image={userTwoImg}
-                name="Toni Prasetyo"
-                title="Sales Forklift Mitsubishi"
+                name="Paul Budi"
+                title="Sales Manager"
               />
             </div>
           </div>
           <div className="">
             <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal ">
-                Pengerjaan <Mark>CCTV</Mark> rapi dan kualitas video sangat
-                baik.
+                Pembayaran <Mark>Belanja</Mark> sangat mudah dilakukan
+                darimanapun.
               </p>
 
               <Avatar
                 image={userThreeImg}
                 name="Staff Purchasing"
-                title="Pasar Modern Tobelo"
+                title="Pasar Modern"
               />
             </div>
           </div>
