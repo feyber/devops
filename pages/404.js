@@ -11,7 +11,7 @@ export default function NotFoundPage() {
         <title>Halaman tidak tersedia</title>
         <meta
           name="description"
-          content="Kasih Cyber adalah Perusahaan Solusi IT Terbaik di Indonesia Timur"
+          content="Untung Terus adalah Perusahaan Solusi Pembayaran Terbaik di Indonesia"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

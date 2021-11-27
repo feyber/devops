@@ -41,41 +41,7 @@ export default function Testimonials() {
                 Layanan pelanggan <Mark>sangat baik</Mark>
                 dan memuaskan. Tampilan App keren!
               </p>
-
-              {/* <Avatar
-                image={userOneImg}
-                name="Woman1"
-                title="co-founder MoonCraft"
-              /> */}
             </div>
-          </div>
-          <div className="">
-            {/* <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-              <p className="text-2xl leading-normal ">
-                Sejak memakai app <Mark>UntungTerus</Mark>
-                penjualan secara online meningkat.
-              </p>
-
-              <Avatar
-                image={userTwoImg}
-                name="Paul Budi"
-                title="Sales Manager"
-              />
-            </div>
-          </div>
-          <div className="">
-            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-              <p className="text-2xl leading-normal ">
-                Pembayaran <Mark>Belanja</Mark> sangat mudah dilakukan
-                darimanapun.
-              </p>
-
-              <Avatar
-                image={userThreeImg}
-                name="Staff Purchasing"
-                title="Pasar Modern"
-              />
-            </div> */}
           </div>
         </div>
       </Container>

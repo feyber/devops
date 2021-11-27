@@ -5,8 +5,6 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
-  // const navigation = ["Service", "Proyek", "Tentang", "Kontak"];
-
   return (
     <div>
       <nav className="container relative flex flex-row items-center justify-between p-2 mx-auto lg:justify-between xl:px-0">
@@ -116,48 +114,25 @@ export default function Navbar() {
         {/* menu  */}
         <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
-            {/* {navigation.map((menu, index) => (
-              <li className="mr-3 nav__item" key={index}>
-                <Link href="/">
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
-                    {menu}
-                  </a>
-                </Link>
-              </li>
-            ))} */}
             <li className=" flex mr-3 nav__item">
-              {/* <Link href="/service">
-                <a className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
-                  Service
-                </a>
-              </Link>
-              <Link href="/proyek">
-                <a className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
-                  Proyek
-                </a>
-              </Link> */}
-
               <a
                 href="#service"
                 className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
               >
                 Satu
               </a>
-
               <a
                 href="#benefit"
                 className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
               >
                 Dua
               </a>
-
               <a
                 href="#testimoni"
                 className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
               >
                 Tiga
               </a>
-
               <a
                 href="#kontak"
                 className="px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
@@ -167,14 +142,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-
         <div className="hidden mr-3 space-x-3 lg:flex nav__item">
-          {/* <Link href="/">
-            <a className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
-            </a>
-          </Link> */}
-
           <ThemeChanger />
         </div>
       </nav>
