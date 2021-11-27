@@ -11,7 +11,7 @@ module.exports = {
         trueGray: colors.trueGray,
       },
       animation: {
-        fadeIn: "fadeIn 2s ease-in forwards",
+        fadeIn: "fadeIn 1.5s ease-in forwards",
         blob: "blob 10s infinite",
       },
       keyframes: {

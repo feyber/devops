@@ -3,8 +3,8 @@ import React from "react";
 import Container from "./container";
 import Tilt from "react-parallax-tilt";
 import userOneImg from "../public/img/user1.jpg";
-import userTwoImg from "../public/img/user2.jpg";
-import userThreeImg from "../public/img/user3.jpg";
+// import userTwoImg from "../public/img/user2.jpg";
+// import userThreeImg from "../public/img/user3.jpg";
 import { useEffect, useRef } from "react";
 
 export default function Testimonials() {
@@ -34,12 +34,9 @@ export default function Testimonials() {
   return (
     <Tilt tiltReverse={true}>
       <Container>
-        <div
-          id="testimoni"
-          className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10 js-show-on-scroll"
-        >
-          <div className="lg:col-span-2 xl:col-auto">
-            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+        <div id="testimoni" className="mb-10 js-show-on-scroll">
+          <div className="">
+            <div className="flex flex-col justify-between w-full bg-yellow-400 px-8 rounded-2xl py-6 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal">
                 Layanan pelanggan <Mark>sangat baik</Mark>
                 dan memuaskan. Tampilan App keren!
@@ -53,7 +50,7 @@ export default function Testimonials() {
             </div>
           </div>
           <div className="">
-            <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            {/* <div className="flex flex-col justify-between w-full h-full bg-yellow-400 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
               <p className="text-2xl leading-normal ">
                 Sejak memakai app <Mark>UntungTerus</Mark>
                 penjualan secara online meningkat.
@@ -78,7 +75,7 @@ export default function Testimonials() {
                 name="Staff Purchasing"
                 title="Pasar Modern"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>
