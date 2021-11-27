@@ -37,16 +37,16 @@ export default function Testimonials() {
         <div id="testimoni" className="mb-10 js-show-on-scroll">
           <div className="">
             <div className="flex flex-col justify-between w-full bg-yellow-400 px-8 rounded-2xl py-6 dark:bg-trueGray-800">
-              <p className="text-2xl leading-normal">
+              <p className="text-2xl leading-normal text-center p-8 font-semibold">
                 Layanan pelanggan <Mark>sangat baik</Mark>
                 dan memuaskan. Tampilan App keren!
               </p>
 
-              <Avatar
+              {/* <Avatar
                 image={userOneImg}
                 name="Woman1"
                 title="co-founder MoonCraft"
-              />
+              /> */}
             </div>
           </div>
           <div className="">
