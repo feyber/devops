@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
 import pengadaan from "../public/img/pengadaan.svg";
@@ -11,8 +12,80 @@ import TextyAnim from "rc-texty";
 export default function Hero() {
   return (
     <>
+      {/* <svg width="100%" height="100%">
+        <defs>
+          <pattern
+            id="p"
+            width="100"
+            height="100"
+            patternUnits="userSpaceOnUse"
+          >
+            <path
+              data-color="fill"
+              fill="#FFF"
+              d="M0 50v50h50C22.386 100 0 77.614 0 50zM100 50C72.386 50 50 27.614 50 0v50h50zM50 25V0C22.386 0 0 22.386 0 50h25c0-13.807 11.193-25 25-25zM100 75V50c-27.614 0-50 22.386-50 50h25c0-13.807 11.193-25 25-25zM25 50c0 13.807 11.193 25 25 25V50H25zM75 0c0 13.807 11.193 25 25 25V0H75z"
+            ></path>
+            <animateTransform
+              attributeName="patternTransform"
+              type="translate"
+              by="100 100"
+              dur="10s"
+              repeatCount="indefinite"
+            ></animateTransform>
+          </pattern>
+        </defs>
+        <rect fill="#EEB400" width="100%" height="100%"></rect>
+        <rect fill="url(#p)" width="100%" height="100%"></rect>
+      </svg>
+      <style jsx>{`
+      body {
+                background-color: #fff;
+                margin: 0px;
+                overflow: hidden;
+                font-family:arial;
+                color:#fff;
+            }
+            h1{
+                margin:0;
+            }
+
+            a {
+                color:#0078ff;
+            }
+            #canvas{
+                width:100%;
+                height:700px;
+                overflow: hidden;
+                position:absolute;
+                top:0;
+                left:0;
+                background-color: #1a1724;               
+            }
+            .canvas-wrap{
+                position:relative;
+                
+            }
+            div.canvas-content{
+                position:relative;
+                z-index:2000;
+                color:#fff;
+                text-align:center;
+                padding-top:30px;
+            }
+        }
+      `}</style>
+      <style jsx global>{`
+        p {
+          font-size: 20px;
+        }
+      `}</style> */}
+
       <Container className="flex flex-wrap w-11/12 mt-10 lg:mt-0 mb-4">
-        <div className="flex items-center w-full lg:w-1/2 ">
+        <div className="relative flex items-center w-full lg:w-1/2">
+          <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 mix-blend-multiply filter blur-xl opacity-50 rounded-full animate-blob mt-10"></div>
+          <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 mix-blend-multiply filter blur-xl opacity-50 rounded-full animate-blob animation-delay-2000 mt-20"></div>
+          <div className="absolute top-0 -bottom-8 w-72 h-72 bg-pink-300 mix-blend-multiply filter blur-xl opacity-50 rounded-full animate-blob animation-delay-4000 mt-36"></div>
+
           <div className="max-w-2xl mb-8">
             {/* <h1 className="text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-3xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
               LEBIH DARI SEKEDAR SOLUSI IT BAGI PERUSAHAAN ANDA.
