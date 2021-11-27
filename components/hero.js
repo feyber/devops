@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Script from "next/script";
+//import Script from "next/script";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
-import pengadaan from "../public/img/pengadaan.svg";
-import support from "../public/img/support.svg";
-import infrastructure from "../public/img/infra.svg";
+// import pengadaan from "../public/img/pengadaan.svg";
+// import support from "../public/img/support.svg";
+// import infrastructure from "../public/img/infra.svg";
 import Tilt from "react-parallax-tilt";
 import Link from "next/link";
 import TextyAnim from "rc-texty";
@@ -79,7 +79,6 @@ export default function Hero() {
           font-size: 20px;
         }
       `}</style> */}
-
       <Container className="flex flex-wrap w-11/12 mt-10 lg:mt-0 mb-4">
         <div className="relative flex items-center w-full lg:w-1/2 ">
           <div className="absolute top-0 -left-4 w-52 h-52 md:w-72 md:h-72 bg-purple-300 mix-blend-multiply filter blur-xl opacity-50 rounded-full animate-blob mt-10 z-0"></div>
@@ -145,68 +144,67 @@ export default function Hero() {
           </div>
         </div>
       </Container>
-      <Container>
+      {/* <Container>
         <div className="flex flex-col justify-center w-full mt-20 lg:mt-20">
           {/* <div className="text-xl text-center text-gray-700 dark:text-white -mt-12 mb-44 bg-indigo-600 rounded-xl">
             <h1>Service Kami</h1>
              <span className="text-indigo-600">2000+</span> customers
             worldwide 
           </div> */}
+      {/* <Tilt tiltReverse={true} tiltAxis={"y"}>
+        <div
+          id="service"
+          className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24 js-show-on-scroll"
+        >
+          <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
+            <Image
+              src={pengadaan}
+              width="150"
+              height="150"
+              alt=""
+              className="items-center justify-center"
+            />
+            <h1 className=" text-center text-md font-bold">
+              +/- 100.000{" "}
+              <span className="text-indigo-600 dark:text-indigo-500">
+                ORANG BERTRANSAKSI DI APPS UNTUNG TERUS
+              </span>
+            </h1>
+          </div>
 
-          <Tilt tiltReverse={true} tiltAxis={"y"}>
-            <div
-              id="service"
-              className="flex flex-col sm:flex-row sm:w-full items-center justify-around space-x-4 -mt-24 js-show-on-scroll"
-            >
-              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
-                <Image
-                  src={pengadaan}
-                  width="150"
-                  height="150"
-                  alt=""
-                  className="items-center justify-center"
-                />
-                <h1 className=" text-center text-md font-bold">
-                  +/- 100.000{" "}
-                  <span className="text-indigo-600 dark:text-indigo-500">
-                    ORANG BERTRANSAKSI DI APPS UNTUNG TERUS
-                  </span>
-                </h1>
-              </div>
-
-              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700 ">
-                <Image
-                  src={infrastructure}
-                  width="200"
-                  height="200"
-                  alt=""
-                  className="items-center justify-center"
-                />
-                <h1 className=" text-center text-md font-bold ">
-                  LAPORAN{" "}
-                  <span className="text-indigo-600 dark:text-indigo-500">
-                    KEUANGAN GRATIS DIMILIKI OLEH ANDA
-                  </span>
-                </h1>
-              </div>
-              <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
-                <Image
-                  src={support}
-                  width="180"
-                  height="150"
-                  alt=""
-                  className="items-center justify-center"
-                />
-                <h1 className=" text-center text-md font-bold">
-                  24 JAM LAYANAN{" "}
-                  <span className="text-indigo-600 dark:text-indigo-500 mt-2">
-                    PROFESIONAL SUPPORT YANG HANDAL
-                  </span>
-                </h1>
-              </div>
-            </div>
-          </Tilt>
-          {/* <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+          <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700 ">
+            <Image
+              src={infrastructure}
+              width="200"
+              height="200"
+              alt=""
+              className="items-center justify-center"
+            />
+            <h1 className=" text-center text-md font-bold ">
+              LAPORAN{" "}
+              <span className="text-indigo-600 dark:text-indigo-500">
+                KEUANGAN GRATIS DIMILIKI OLEH ANDA
+              </span>
+            </h1>
+          </div>
+          <div className="flex flex-col bg-indigo-50 items-center justify-center w-full h-full lg:w-4/12 lg:h-64 p-4 shadow-md blur-3 rounded-lg bg-opacity-25 row-span-12 mb-4 hover:shadow-xl lg:hover:-translate-y-12 scale-90 hover:scale-100 md:scale-100 duration-700">
+            <Image
+              src={support}
+              width="180"
+              height="150"
+              alt=""
+              className="items-center justify-center"
+            />
+            <h1 className=" text-center text-md font-bold">
+              24 JAM LAYANAN{" "}
+              <span className="text-indigo-600 dark:text-indigo-500 mt-2">
+                PROFESIONAL SUPPORT YANG HANDAL
+              </span>
+            </h1>
+          </div>
+        </div>
+      </Tilt> */}
+      {/* <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <AmazonLogo />
             </div>
@@ -223,8 +221,8 @@ export default function Hero() {
               <SonyLogo />
             </div>
           </div> */}
-        </div>
-      </Container>
+      {/* </div>
+      </Container> */}{" "}
     </>
   );
 }
